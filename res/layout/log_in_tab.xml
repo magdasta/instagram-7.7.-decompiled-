@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:layout_gravity="left" android:id="@id/username" android:background="@null" android:paddingLeft="0.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:hint="@string/username" android:singleLine="true" android:inputType="textNoSuggestions" />
+    <include layout="@layout/row_divider" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small">
+        <EditText android:id="@id/password" android:background="@null" android:paddingLeft="0.0dip" android:layout_width="0.0dip" android:layout_height="@dimen/row_height_small" android:hint="@string/password" android:singleLine="true" android:layout_weight="1.0" android:inputType="textPassword" android:imeOptions="actionDone" />
+        <ImageView android:id="@id/clear" android:layout_width="wrap_content" android:layout_height="@dimen/row_height_small" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" android:src="@drawable/search_clear" android:scaleType="center" />
+        <View android:id="@id/clear_divider" android:background="@color/grey_2" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" />
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/row_padding">
+            <TextView android:textColor="@color/accent_blue_medium" android:gravity="center_vertical" android:id="@id/forgot" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/forgot" />
+            <ImageView android:layout_gravity="right" android:id="@id/next" android:layout_width="wrap_content" android:layout_height="@dimen/row_height_small" android:src="@drawable/nav_arrow_next" android:contentDescription="@string/nux_dayone_log_in" />
+            <ProgressBar android:layout_gravity="center|right" android:id="@id/progress" android:layout_width="32.0dip" android:layout_height="32.0dip" android:indeterminate="true" />
+        </FrameLayout>
+    </LinearLayout>
+    <include layout="@layout/row_divider" />
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <include layout="@layout/or_divider" />
+    <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/accent_blue_medium" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/facebook" android:layout_width="wrap_content" android:layout_height="@dimen/row_height_small" android:text="@string/tabbed_landing_log_in_with_facebook" android:drawableLeft="@drawable/share_facebook" android:drawablePadding="4.0dip" />
+</LinearLayout>

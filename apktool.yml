@@ -1,0 +1,25 @@
+version: 2.0.0-RC4
+apkFileName: com.instagram.android-7.7.0-15049153-minAPI14.apk
+isFrameworkApk: false
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '23'
+packageInfo:
+  forced-package-id: '127'
+versionInfo:
+  versionCode: '15049153'
+  versionName: 7.7.0
+compressionType: false
+unknownFiles:
+  LICENSE.txt: '8'
+  NOTICE.txt: '8'
+  isoparser-default.properties: '8'
+  version.txt: '8'
+  ch/boye/httpclientandroidlib/impl/conn/tsccm/doc-files/tsccm-structure.png: '8'
+  com/coremedia/iso/boxes/odf-boxes.zip: '8'
+  com/coremedia/iso/boxes/rtp-boxes.zip: '8'
+  com/googlecode/mp4parser/boxes/mp4-boxes.zip: '8'
+  com/googlecode/mp4parser/boxes/mp4/objectdescriptors/ObjectDescriptor.java_bak: '8'

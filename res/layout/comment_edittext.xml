@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/button_like_container" android:visibility="gone" android:layout_width="@dimen/button_width" android:layout_height="fill_parent">
+        <com.instagram.ui.widget.likebutton.IgLikeButtonImageView android:layout_gravity="center_vertical" android:id="@id/button_like" android:layout_width="@dimen/button_width" android:layout_height="@dimen/button_width" android:src="@drawable/feed_button_like" android:scaleType="center" />
+        <include android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="1.0px" layout="@layout/row_divider" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.instagram.android.feed.comments.ui.ComposerAutoCompleteTextView android:layout_gravity="center_vertical" android:id="@id/layout_comment_thread_edittext" android:background="@null" android:paddingLeft="@dimen/row_padding" android:paddingTop="@dimen/row_text_padding" android:paddingRight="@dimen/row_padding" android:paddingBottom="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_height_small" android:hint="@string/comment_hint" android:singleLine="false" android:maxLength="@integer/max_comments_length" android:inputType="textAutoCorrect|textCapSentences|textMultiLine" android:imeOptions="actionSend" />
+        <include android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="1.0px" layout="@layout/row_divider" />
+    </FrameLayout>
+    <ImageView android:id="@id/layout_comment_thread_button_send" android:background="@drawable/action_bar_light_blue_button_background" android:layout_width="48.0dip" android:layout_height="fill_parent" android:src="@drawable/send" android:scaleType="center" />
+</LinearLayout>

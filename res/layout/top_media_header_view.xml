@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/top_media_section_title" android:paddingLeft="@dimen/action_bar_search_padding" android:paddingRight="@dimen/action_bar_search_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/explore_text_title_height" android:text="@string/top_posts" style="@style/ExploreHeaderText.Feed" />
+    <LinearLayout android:orientation="vertical" android:id="@id/top_media_thumbnails_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/most_recent_section_label_container" android:paddingLeft="@dimen/action_bar_search_padding" android:paddingRight="@dimen/action_bar_search_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/explore_text_title_height">
+        <TextView android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/most_recent" android:layout_weight="1.0" style="@style/ExploreHeaderText.Feed" />
+        <TextView android:id="@id/most_recent_section_count" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/ExploreHeaderText.Feed" />
+    </LinearLayout>
+</LinearLayout>

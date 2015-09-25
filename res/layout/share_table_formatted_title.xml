@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textStyle="bold" android:ellipsize="end" android:gravity="center_vertical" android:padding="@dimen/row_text_padding" android:layout_width="wrap_content" android:layout_height="@dimen/row_height_small" android:layout_marginTop="@dimen/vertical_separator_padding" android:text="@string/other_networks" android:singleLine="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

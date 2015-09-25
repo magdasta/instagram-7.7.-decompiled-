@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/explore_text_title_height" android:text="@string/social_item_section_header" style="@style/ExploreHeaderText.Feed"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

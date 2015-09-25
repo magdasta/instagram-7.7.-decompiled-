@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/PaddedRow"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:background="@drawable/input_background" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:paddingBottom="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:id="@id/metadata_thumbnail_container" android:layout_width="@dimen/metadata_imageview_size" android:layout_height="@dimen/metadata_imageview_size">
+            <com.instagram.common.ui.widget.imageview.IgImageView android:id="@id/metadata_imageview" android:layout_width="fill_parent" android:layout_height="fill_parent" app:placeholder="@color/image_placeholder" />
+            <ImageView android:layout_gravity="center" android:id="@id/caption_video_overlay" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/grid_camera_icon" />
+        </FrameLayout>
+        <com.instagram.android.widget.IgAutoCompleteTextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/caption_text_view" android:background="@null" android:paddingLeft="@dimen/row_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/metadata_imageview_size" android:hint="@string/enter_caption" android:maxLength="@integer/max_comments_length" android:layout_weight="1.0" android:inputType="textAutoCorrect|textCapSentences|textMultiLine" android:imeOptions="actionDone" android:dropDownHeight="wrap_content" style="@style/IgAutoCompleteTextView" />
+    </LinearLayout>
+</FrameLayout>

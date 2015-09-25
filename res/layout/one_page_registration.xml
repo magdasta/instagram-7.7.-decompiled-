@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.android.nux.landing.LandingRotatingBackgroundView android:id="@id/one_page_rotating_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.instagram.android.nux.landing.OnePageScrollView android:id="@id/one_page_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="center" android:id="@id/profile_pic_layout" android:layout_width="wrap_content" android:layout_height="@dimen/connection_logo_height" android:layout_marginTop="@dimen/add_photo_padding_top_bottom" android:layout_marginBottom="@dimen/add_photo_padding_top_bottom">
+                <TextView android:textColor="@color/white" android:layout_gravity="center" android:id="@id/photo_text_view" android:paddingTop="@dimen/add_photo_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photo" />
+                <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center" android:id="@id/add_photo_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/add_photo_plus_sign_margin" android:src="@drawable/add_photo_plus" android:contentDescription="@string/profile_photo_description" />
+                <ImageView android:layout_gravity="center" android:id="@id/add_photo_border" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/add_photo_border" />
+            </FrameLayout>
+            <LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.instagram.ui.widget.searchedittext.SearchEditText android:id="@id/email" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:hint="@string/tabbed_landing_email_hint" android:singleLine="true" android:drawableLeft="@drawable/profile_glyph_email" android:drawableRight="@drawable/search_clear" android:drawablePadding="@dimen/nearby_search_row_padding" android:inputType="textEmailAddress" android:privateImeOptions="nm" android:imeOptions="actionNext" />
+                    <ProgressBar android:layout_gravity="center|right" android:id="@id/progress_email" android:paddingRight="@dimen/error_text_view_padding" android:visibility="gone" android:layout_width="@dimen/reg_icon_width" android:layout_height="@dimen/reg_icon_width" android:indeterminate="true" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.instagram.ui.widget.searchedittext.SearchEditText android:id="@id/username" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:hint="@string/username" android:singleLine="true" android:drawableLeft="@drawable/profile_glyph_username" android:drawableRight="@drawable/search_clear" android:drawablePadding="@dimen/nearby_search_row_padding" android:inputType="textNoSuggestions" android:privateImeOptions="nm" android:imeOptions="actionNext" />
+                    <ProgressBar android:layout_gravity="center|right" android:id="@id/progress_username" android:paddingRight="@dimen/error_text_view_padding" android:visibility="gone" android:layout_width="@dimen/reg_icon_width" android:layout_height="@dimen/reg_icon_width" android:indeterminate="true" />
+                </FrameLayout>
+                <HorizontalScrollView android:layout_gravity="center" android:id="@id/username_suggestion" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/multi_reg_token_padding_bottom">
+                    <TextView android:gravity="center_vertical" android:id="@id/username_suggestion_span" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </HorizontalScrollView>
+                <com.instagram.ui.widget.searchedittext.SearchEditText android:id="@id/password" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:hint="@string/password" android:singleLine="true" android:drawableLeft="@drawable/profile_glyph_password" android:drawableRight="@drawable/search_clear" android:drawablePadding="@dimen/nearby_search_row_padding" android:inputType="textPassword" android:imeOptions="actionNext" />
+                <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@drawable/text_view_color" android:gravity="center" android:id="@id/next_label" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:text="@string/next" />
+                <ProgressBar android:layout_gravity="center" android:id="@id/progress_next" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_margin="@dimen/row_padding" android:indeterminate="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.instagram.android.nux.landing.OnePageScrollView>
+    <include layout="@layout/notification_bar" />
+</FrameLayout>

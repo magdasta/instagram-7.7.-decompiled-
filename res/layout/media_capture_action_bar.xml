@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/action_bar_cancel" android:src="@drawable/nav_cancel" style="@style/ActionBarButton.Dark" />
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.instagram.creation.capture.FolderMenu android:textSize="@dimen/font_large" android:textColor="@color/white" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/gallery_folder_menu" android:paddingLeft="@dimen/action_bar_item_padding" android:paddingRight="24.0dip" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/gallery_tab" android:lines="1" android:singleLine="true" style="@style/ActionBarButton.Dark" />
+        <com.instagram.ui.text.FreightSansTextView android:gravity="center_vertical" android:id="@id/photo_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/photo" style="@style/ActionBarTitle" />
+        <com.instagram.ui.text.FreightSansTextView android:gravity="center_vertical" android:id="@id/video_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/video" style="@style/ActionBarTitle" />
+    </FrameLayout>
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/next" android:src="@drawable/nav_arrow_next" android:alpha="0.0" app:normal="@color/accent_blue_medium" style="@style/ActionBarButton.Dark" />
+</merge>

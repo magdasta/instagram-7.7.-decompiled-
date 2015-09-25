@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.android.feed.ui.LinkButton android:id="@id/link_button" android:visibility="gone" android:clickable="true" style="@style/IgLinkButton"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/row_divider" />
+    <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/grey_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23.0dip" android:text="@string/explore_marquee_attribution" />
+    <TextView android:textStyle="bold" android:textColor="@color/blue_medium" android:ellipsize="end" android:id="@id/explore_attribution_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+</LinearLayout>

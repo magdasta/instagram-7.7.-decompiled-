@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">%1$s de vos amis Facebook sont sur Instagram.</item>
+        <item quantity="one">%1$s de vos amis Facebook sont sur Instagram.</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">%1$s de vos amis VKontakte sont sur Instagram</item>
+        <item quantity="one">%1$s de vos amis VKontakte sont sur Instagram</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">%1$s de vos contacts sont sur Instagram.</item>
+        <item quantity="one">%1$s de vos contacts sont sur Instagram.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%1$d photos</item>
+        <item quantity="one">%1$d photos</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">il y a %1$s secondes</item>
+        <item quantity="one">il y a %1$s secondes</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">il y a %1$s minutes</item>
+        <item quantity="one">il y a %1$s minutes</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">il y a %1$s heures</item>
+        <item quantity="one">il y a %1$s heures</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">il y a %1$s jours</item>
+        <item quantity="one">il y a %1$s jours</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">il y a %1$s semaines</item>
+        <item quantity="one">il y a %1$s semaines</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s personnes</item>
+        <item quantity="one">%1$s personnes</item>
+    </plurals>
+    <plurals name="direct_x_message_requests">
+        <item quantity="other">%1$s demandes de message</item>
+        <item quantity="one">%1$s demandes de message</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">Vous ne pouvez choisir que %1$d commentaires à la fois.</item>
+        <item quantity="one">Vous ne pouvez choisir que %1$d commentaires à la fois.</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">Vous avez %1$s amis Facebook sur Instagram.</item>
+        <item quantity="one">Vous avez %1$s amis Facebook sur Instagram.</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">Vous avez %1$s amis VKontakte sur Intagram.</item>
+        <item quantity="one">Vous avez %1$s amis VKontakte sur Intagram.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">%1$s contacts trouvés.</item>
+        <item quantity="one">%1$s contacts trouvés.</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">%1$d sélectionnée(s)</item>
+        <item quantity="one">%1$d sélectionnée(s)</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">%1$d commentaires supprimés. Touchez pour annuler.</item>
+        <item quantity="one">%1$d commentaires supprimés. Touchez pour annuler.</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%1$s amis Facebook</item>
+        <item quantity="one">%1$s amis Facebook</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%1$s contacts</item>
+        <item quantity="one">%1$s contacts</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d personnes</item>
+        <item quantity="one">%1$d personnes</item>
+    </plurals>
+    <plurals name="cluster_browsing_x_suggested_accounts">
+        <item quantity="other">%1$d comptes suggérés</item>
+        <item quantity="one">%1$d comptes suggérés</item>
+    </plurals>
+    <plurals name="cluster_browsing_topics_selected">
+        <item quantity="other">%1$d sujets sélectionnés</item>
+        <item quantity="one">%1$d sujets sélectionnés</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%1$d personnes ont répondu.</item>
+        <item quantity="one">%1$d personnes ont répondu.</item>
+    </plurals>
+</resources>

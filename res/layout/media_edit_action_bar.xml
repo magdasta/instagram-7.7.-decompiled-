@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/button_back" android:src="@drawable/nav_arrow_back" android:contentDescription="@string/back" style="@style/ActionBarButton.Dark" />
+    <com.instagram.ui.text.FreightSansTextView android:gravity="center_vertical" android:id="@id/action_bar_textview_title" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/edit" android:layout_weight="1.0" style="@style/ActionBarTitle" />
+    <LinearLayout android:id="@id/container_next" android:layout_width="wrap_content" android:layout_height="fill_parent" style="@style/ActionBarButton.Dark">
+        <com.instagram.ui.text.FreightSansTextView android:textColor="@color/accent_blue_medium" android:gravity="center_vertical" android:id="@id/title_next" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/share" style="@style/ActionBarTitle" />
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/button_next" android:visibility="gone" android:src="@drawable/nav_arrow_next" app:normal="@color/accent_blue_medium" app:disabled_alpha="0x4d" style="@style/ActionBarButton.Dark" />
+    </LinearLayout>
+    <ImageView android:id="@id/actionbar_rotate90_button" android:background="@drawable/dark_action_bar_background" android:paddingRight="16.0dip" android:visibility="gone" style="@style/ActionBarButton.Dark" />
+</LinearLayout>

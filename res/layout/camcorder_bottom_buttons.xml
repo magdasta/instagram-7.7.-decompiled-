@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/creation_main_actions" android:background="@color/grey_8" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="top" android:id="@id/clip_stack_view_container" android:background="@color/grey_9" android:layout_width="fill_parent" android:layout_height="4.0dip">
+        <View android:id="@id/minimum_clip_length_image" android:background="@color/grey_6" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <com.instagram.creation.video.ui.ClipStackView android:id="@id/clip_stack_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <com.instagram.creation.video.ui.CamcorderBlinker android:id="@id/blinker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camcorder_track_light" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+        <ViewSwitcher android:id="@id/backspace_switcher" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <com.instagram.creation.util.GalleryPreviewButton android:layout_gravity="center" android:id="@id/fragment_camcorder_last_video_button" android:layout_width="@dimen/camera_bottom_gallery_button_size" android:layout_height="@dimen/camera_bottom_gallery_button_size" />
+                <com.instagram.ui.widget.strokeimageview.CircularStrokeImageView android:layout_gravity="center" android:id="@id/gallery_button" android:background="@drawable/switch_camera_button_background" android:layout_width="@dimen/camera_bottom_button_size_large" android:layout_height="@dimen/camera_bottom_button_size_large" android:src="@drawable/camera_glyph_gallery" android:scaleType="center" app:outlineColor="@color/grey_6" app:strokeSize="@dimen/camera_button_stroke_width" />
+            </FrameLayout>
+            <ImageView android:layout_gravity="center" android:id="@id/button_remove_actual" android:background="@drawable/video_soft_delete_button" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </ViewSwitcher>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.instagram.creation.video.ui.VideoShutterButton android:layout_gravity="center" android:id="@id/fragment_camera_shutter_button" android:background="@drawable/camcorder_shutter_button_background" android:focusable="true" android:clickable="true" android:layout_width="@dimen/camera_shutter_button_size_large" android:layout_height="@dimen/camera_shutter_button_size_large" />
+        </FrameLayout>
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.instagram.ui.widget.strokeimageview.CircularStrokeImageView android:layout_gravity="center" android:id="@id/button_remove" android:background="@drawable/switch_camera_button_background" android:layout_width="@dimen/camera_bottom_button_size_large" android:layout_height="@dimen/camera_bottom_button_size_large" android:src="@drawable/camera_glyph_camera" android:scaleType="center" app:outlineColor="@color/grey_6" app:strokeSize="@dimen/camera_button_stroke_width" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

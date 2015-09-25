@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">Facebook 친구 중 %1$s명이 Instagram을 사용 중입니다</item>
+        <item quantity="one">Facebook 친구 중 1명이 Instagram을 사용 중입니다</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">회원님의 VKontakte 친구 %1$s명이 Instagram을 사용 중입니다</item>
+        <item quantity="one">회원님의 VKontakte 친구 1명이 Instagram을 사용 중입니다</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">연락처에 있는 사람 중 %1$s명이 Instagram을 사용 중입니다</item>
+        <item quantity="one">연락처에 있는 사람 중 1명이 Instagram을 사용 중입니다</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">사진 %1$d장</item>
+        <item quantity="one">사진 1장</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%1$s초 전</item>
+        <item quantity="one">%1$s초 전</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%1$s분 전</item>
+        <item quantity="one">%1$s분 전</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%1$s시간 전</item>
+        <item quantity="one">%1$s시간 전</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%1$s일 전</item>
+        <item quantity="one">%1$s일 전</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%1$s주 전</item>
+        <item quantity="one">%1$s주 전</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s명</item>
+        <item quantity="one">1명</item>
+    </plurals>
+    <plurals name="direct_x_message_requests">
+        <item quantity="other">메시지 요청 %1$s개</item>
+        <item quantity="one">%1$s님의 메시지 요청</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">댓글은 한 번에 %1$d개까지만 선택할 수 있습니다.</item>
+        <item quantity="one">댓글은 한 번에 하나만 선택할 수 있습니다.</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">Instagram에 Facebook 친구가 %1$s명 있습니다.</item>
+        <item quantity="one">Instagram에 Facebook 친구가 1명 있습니다.</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">회원님의 VKontakte 친구 %1$s명이 Instagram을 사용 중입니다.</item>
+        <item quantity="one">회원님의 VKontakte 친구 1명이 Instagram을 사용 중입니다.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">연락처 %1$s개를 찾았습니다.</item>
+        <item quantity="one">연락처 1개를 찾았습니다.</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">%1$d개 선택됨</item>
+        <item quantity="one">1개 선택됨</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">댓글 %1$d개가 삭제되었습니다. 취소하려면 누르세요.</item>
+        <item quantity="one">댓글이 삭제되었습니다. 취소하려면 누르세요</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">Facebook 친구 %1$s명</item>
+        <item quantity="one">Facebook 친구 1명</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">연락처 %1$s개</item>
+        <item quantity="one">연락처 1개</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d명</item>
+        <item quantity="one">1명</item>
+    </plurals>
+    <plurals name="cluster_browsing_x_suggested_accounts">
+        <item quantity="other">추천 계정 %1$d개</item>
+        <item quantity="one">추천 계정 1개</item>
+    </plurals>
+    <plurals name="cluster_browsing_topics_selected">
+        <item quantity="other">주제 %1$d개 선택됨</item>
+        <item quantity="one">주제 1개 선택됨</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%1$d명이 응답했습니다.</item>
+        <item quantity="one">1명이 응답했습니다.</item>
+    </plurals>
+</resources>

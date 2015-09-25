@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/nux_call_to_action_padding" android:paddingTop="@dimen/cluster_grid_space" android:paddingRight="@dimen/nux_call_to_action_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_large" android:textColor="@color/grey_7" android:gravity="center" android:paddingBottom="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/cluster_browsing_two_step_title" />
+    <TextView android:textSize="@dimen/font_medium" android:textColor="@color/grey_4" android:gravity="center" android:id="@id/cluster_browsing_subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

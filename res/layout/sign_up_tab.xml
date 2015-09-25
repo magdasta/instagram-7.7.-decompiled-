@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="center" android:id="@id/top_button_view_stub" android:inflatedId="@id/top_button_view" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" />
+    <include layout="@layout/or_divider" />
+    <ViewStub android:layout_gravity="center" android:id="@id/bottom_button_view_stub" android:inflatedId="@id/bottom_button_view" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" />
+    <include android:id="@id/bottom_button_view_divider" layout="@layout/row_divider" />
+    <ViewStub android:layout_gravity="center" android:id="@id/profile_picture_view_stub" android:layout="@layout/profile_picture_view" android:inflatedId="@id/profile_picture_button_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <View android:id="@id/sign_up_tab_placeholder" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <TextView android:textColor="@color/grey_light" android:gravity="center" android:layout_gravity="center" android:id="@id/privacy_policy" android:paddingBottom="@dimen/row_text_padding" android:visibility="gone" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" />
+</LinearLayout>

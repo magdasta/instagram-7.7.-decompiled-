@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tabbed_landing_logo_padding_top">16.0dip</dimen>
+    <dimen name="tabbed_landing_logo_padding_bottom">16.0dip</dimen>
+    <dimen name="tabbed_landing_logo_padding_horizontal">72.0dip</dimen>
+</resources>

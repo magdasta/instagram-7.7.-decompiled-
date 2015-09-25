@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/suggested_user_carousel_row" android:background="@drawable/grey_square_border" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/recommended_user_megaphone_padding">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/recommended_user_megaphone_padding">
+            <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center_vertical" android:id="@id/suggested_user_carousel_imageview" style="@style/Avatar.Small" />
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/recommended_user_megaphone_padding" android:paddingRight="@dimen/recommended_user_megaphone_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:ellipsize="end" android:id="@id/suggested_user_carousel_username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textSize="@dimen/font_xsmall" android:textColor="@color/grey_light" android:ellipsize="end" android:id="@id/suggested_user_carousel_fullname" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" />
+            </LinearLayout>
+            <include android:layout_gravity="center_vertical" android:id="@id/suggested_user_carousel_follow_button" android:layout_width="wrap_content" android:layout_height="@dimen/follow_button_height" layout="@layout/follow_button_medium" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/suggested_user_carousel_empty_card" android:background="@color/grey_1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/suggested_user_carousel_empty_card_image" android:layout_width="wrap_content" android:layout_height="@dimen/avatar_size_small" android:layout_marginBottom="@dimen/row_text_button_padding" android:contentDescription="@string/photos_of_you_empty_title" />
+            <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_3" android:id="@id/suggested_user_carousel_empty_card_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/suggested_user_carousel_megaphone_context_and_hide" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/font_xsmall" android:textColor="@color/grey_light" android:ellipsize="end" android:id="@id/suggested_user_carousel_social_context" android:padding="@dimen/recommended_user_megaphone_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/font_xsmall" android:textColor="@color/blue_4" android:id="@id/suggested_user_carousel_hide_button" android:padding="@dimen/recommended_user_megaphone_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/starred_hide" android:singleLine="true" android:textAllCaps="true" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

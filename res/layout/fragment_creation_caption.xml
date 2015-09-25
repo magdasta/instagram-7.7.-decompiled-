@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/placeholder_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="matrix" />
+    <FrameLayout android:layout_gravity="bottom" android:id="@id/caption_container" android:background="@color/white" android:paddingTop="@dimen/row_text_padding" android:paddingBottom="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.instagram.android.widget.IgAutoCompleteTextView android:id="@id/caption_text_view" android:padding="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" android:hint="@string/enter_caption" android:maxLength="@integer/max_comments_length" android:inputType="textAutoCorrect|textCapSentences|textMultiLine" android:imeOptions="actionDone" style="@style/IgAutoCompleteTextView" />
+    </FrameLayout>
+</FrameLayout>

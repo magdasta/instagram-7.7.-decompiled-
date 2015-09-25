@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/layout_maps_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/action_bar" layout="@layout/action_bar" />
+    <View android:id="@id/action_bar_shadow" android:background="@drawable/tab_control_shadow" android:layout_width="fill_parent" android:layout_height="7.0dip" android:layout_below="@id/action_bar" />
+</RelativeLayout>

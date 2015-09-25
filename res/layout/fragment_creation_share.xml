@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/creation_share_content" android:paddingTop="@dimen/row_text_padding" android:paddingBottom="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_medium" android:textColor="@color/grey_medium" android:textColorHint="@color/grey_light" android:id="@id/caption_text_view" android:background="@drawable/input_background" android:padding="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" android:hint="@string/enter_caption" android:maxLength="@integer/max_comments_length" />
+    <FrameLayout android:id="@id/metadata_location_row" android:background="@drawable/bg_simple_row" style="@style/PaddedRow">
+        <include android:id="@id/location_row" layout="@layout/location_suggestions_row" />
+        <include layout="@layout/row_divider" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/direct_share_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

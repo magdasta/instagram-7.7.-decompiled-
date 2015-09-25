@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.android.nux.landing.EmailTextView android:ellipsize="start" android:gravity="center" android:layout_gravity="center" android:id="@id/email" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="24.0dip" android:layout_marginRight="24.0dip" android:hint="@string/tabbed_landing_new_reg_email_hint" android:singleLine="true" android:inputType="textEmailAddress" android:privateImeOptions="nm" android:imeOptions="actionNext" />
+    <EditText android:ellipsize="start" android:gravity="center" android:layout_gravity="center" android:id="@id/name_or_username_text_view" android:background="@null" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inputType="textNoSuggestions" android:privateImeOptions="nm" android:imeOptions="actionNext" />
+    <ImageView android:layout_gravity="center|right" android:id="@id/clear_text_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/row_height_small" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" android:src="@drawable/search_clear" android:scaleType="center" />
+    <include android:id="@id/password_view" layout="@layout/password_view" />
+</FrameLayout>

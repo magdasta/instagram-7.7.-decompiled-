@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/action_bar" style="@style/ActionBar"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/action_bar_button_back" android:src="@drawable/nav_arrow_back" android:contentDescription="@string/back" style="@style/ActionBarButton" />
+    <com.instagram.ui.text.FreightSansTextView android:gravity="center_vertical" android:id="@id/action_bar_textview_title" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/ActionBarTitle" />
+    <FrameLayout android:id="@id/action_bar_textview_custom_title_container" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <com.instagram.actionbar.ActionButton android:id="@id/action_bar_button_action" android:layout_width="@dimen/action_bar_button_width" android:layout_height="fill_parent" />
+</LinearLayout>

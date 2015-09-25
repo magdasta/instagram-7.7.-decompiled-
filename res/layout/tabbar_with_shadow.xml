@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/fixed_tabbar_container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="@dimen/top_tabbar_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.ui.widget.fixedtabbar.FixedTabBar android:id="@id/fixed_tabbar_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:layout_gravity="bottom" android:id="@id/fixed_tabbar_shadow" android:background="@drawable/tab_control_shadow" android:layout_width="fill_parent" android:layout_height="@dimen/view_switcher_shadow_height" android:layout_marginBottom="-7.0dip" />
+</FrameLayout>

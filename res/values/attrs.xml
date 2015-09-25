@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="color" format="color" />
+    <attr name="placeholder" format="reference|color" />
+    <attr name="strokeColor" format="reference|color" />
+    <attr name="strokeWidth" format="dimension" />
+    <attr name="decorate" format="boolean" />
+    <attr name="aspect" format="float" />
+    <attr name="radius" format="dimension" />
+    <attr name="dark" format="boolean" />
+    <attr name="normal" format="color" />
+    <attr name="normal_alpha" format="integer" min="0" max="255" />
+    <attr name="active" format="color" />
+    <attr name="active_alpha" format="integer" min="0" max="255" />
+    <attr name="disabled_alpha" format="integer" min="0" max="255" />
+    <attr name="image" format="reference" />
+    <attr name="errorImage" format="reference" />
+    <attr name="colorFilter" format="reference|color" />
+    <attr name="errorColorFilter" format="reference|color" />
+    <attr name="title" format="reference|string" />
+    <attr name="loadingTitle" format="reference|string" />
+    <attr name="errorTitle" format="reference|string" />
+    <attr name="subtitle" format="reference|string" />
+    <attr name="loadingSubtitle" format="reference|string" />
+    <attr name="errorSubtitle" format="reference|string" />
+    <attr name="buttonText" format="reference|string" />
+    <attr name="loadingButtonText" format="reference|string" />
+    <attr name="errorButtonText" format="reference|string" />
+    <attr name="state">
+        <enum name="Empty" value="0" />
+        <enum name="Error" value="2" />
+        <enum name="Loading" value="1" />
+    </attr>
+    <attr name="drawable" format="reference" />
+    <attr name="innerSpacing" format="dimension" />
+    <attr name="followButtonStyle" format="string" />
+    <attr name="lines" format="integer" />
+    <attr name="barImage" format="reference" />
+    <attr name="clipBackground" format="reference" />
+    <attr name="clipBackgroundSoftDelete" format="reference" />
+    <attr name="switchStyle" format="reference" />
+    <attr name="thumbDrawable" format="reference" />
+    <attr name="checkedDrawable" format="reference" />
+    <attr name="uncheckedDrawable" format="reference" />
+    <attr name="lineSpacingExtra" format="dimension" />
+    <attr name="showStroke" format="boolean" />
+    <attr name="avatarWidth" format="dimension" />
+    <attr name="enableQuickBackWhenEmpty" format="boolean" />
+    <attr name="scale" format="boolean" />
+    <attr name="text" format="string" />
+    <attr name="textColor" format="color" />
+    <attr name="backgroundColor" format="color" />
+    <attr name="textSize" format="dimension" />
+    <attr name="slideOutIcon" format="reference" />
+    <attr name="fadeOutDurationMs" format="integer" />
+    <attr name="slideOutDurationMs" format="integer" />
+    <attr name="totalDisplayDurationMs" format="integer" />
+    <attr name="beforeSlideOutDurationMs" format="integer" />
+    <attr name="innerCircleInset" format="dimension" />
+    <attr name="innerCircleColour" format="color" />
+    <attr name="outerCircleColour" format="color" />
+    <attr name="progressCircleColour" format="color" />
+    <attr name="progressCircleStrokeWidth" format="dimension" />
+    <attr name="arrowColour" format="color" />
+    <attr name="arrowHeadEdgeLength" format="dimension" />
+    <attr name="arrowLength" format="dimension" />
+    <attr name="arrowThickness" format="dimension" />
+    <attr name="maxDurationMS" format="integer" />
+    <attr name="perfTrackingCategory" format="string" />
+    <attr name="vpiCirclePageIndicatorStyle" format="reference" />
+    <attr name="centered" format="boolean" />
+    <attr name="pageColor" format="color" />
+    <attr name="snap" format="boolean" />
+    <attr name="fillColor" format="color" />
+    <attr name="direction">
+        <enum name="north" value="0" />
+        <enum name="south" value="1" />
+    </attr>
+    <attr name="actionbarCompatProgressIndicatorStyle" format="reference" />
+    <attr name="fullDark" format="reference|color" />
+    <attr name="topDark" format="reference|color" />
+    <attr name="centerDark" format="reference|color" />
+    <attr name="bottomDark" format="reference|color" />
+    <attr name="fullBright" format="reference|color" />
+    <attr name="topBright" format="reference|color" />
+    <attr name="centerBright" format="reference|color" />
+    <attr name="bottomBright" format="reference|color" />
+    <attr name="bottomMedium" format="reference|color" />
+    <attr name="centerMedium" format="reference|color" />
+    <attr name="listLayout" format="reference" />
+    <attr name="multiChoiceItemLayout" format="reference" />
+    <attr name="singleChoiceItemLayout" format="reference" />
+    <attr name="listItemLayout" format="reference" />
+    <attr name="progressLayout" format="reference" />
+    <attr name="horizontalProgressLayout" format="reference" />
+    <attr name="alertDialogStyle" format="reference" />
+    <attr name="alertDialogButtonGroupStyle" format="reference" />
+    <attr name="alertDialogCenterButtons" format="boolean" />
+    <attr name="alertDialogTheme" format="reference" />
+    <attr name="icon" format="reference" />
+    <attr name="defaultTitle" format="string" />
+    <attr name="defaultSubtitle" format="string" />
+    <attr name="connectedTitle" format="string" />
+    <attr name="connectedSubtitle" format="string" />
+    <attr name="shareTableStyle" format="reference" />
+    <attr name="enabledTextColor" format="color" />
+    <attr name="enabledIconColor" format="color" />
+    <attr name="disabledColor" format="color" />
+    <attr name="maxWidth" format="dimension" />
+    <attr name="maxHeight" format="dimension" />
+    <attr name="capitalize" format="boolean" />
+    <attr name="medium" format="boolean" />
+    <attr name="outlineColor" format="color" />
+    <attr name="strokeSize" format="dimension" />
+    <attr name="TokenTextViewStyle" format="reference" />
+    <attr name="auto_start" format="boolean" />
+    <attr name="base_alpha" format="float" />
+    <attr name="duration" format="integer" />
+    <attr name="repeat_count" format="integer" />
+    <attr name="repeat_delay" format="integer" />
+    <attr name="repeat_mode">
+        <enum name="restart" value="1" />
+        <enum name="reverse" value="2" />
+    </attr>
+    <attr name="angle">
+        <enum name="cw_0" value="0" />
+        <enum name="cw_180" value="180" />
+        <enum name="cw_270" value="270" />
+        <enum name="cw_90" value="90" />
+    </attr>
+    <attr name="dropoff" format="float" />
+    <attr name="fixed_width" format="dimension" />
+    <attr name="fixed_height" format="dimension" />
+    <attr name="intensity" format="float" />
+    <attr name="relative_width" format="float" />
+    <attr name="relative_height" format="float" />
+    <attr name="shape">
+        <enum name="linear" value="0" />
+        <enum name="radial" value="1" />
+    </attr>
+    <attr name="tilt" format="float" />
+    <attr name="initialCameraFacing">
+        <enum name="back" value="0" />
+        <enum name="front" value="1" />
+    </attr>
+    <attr name="videoCaptureQuality">
+        <enum name="deactivated" value="3" />
+        <enum name="high" value="0" />
+        <enum name="low" value="2" />
+        <enum name="medium" value="1" />
+    </attr>
+    <attr name="photoCaptureQuality">
+        <enum name="deactivated" value="3" />
+        <enum name="high" value="0" />
+        <enum name="low" value="2" />
+        <enum name="medium" value="1" />
+    </attr>
+    <attr name="enablePinchZoom" format="boolean" />
+</resources>

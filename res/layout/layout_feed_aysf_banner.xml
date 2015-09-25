@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@id/title_banner" android:background="@color/grey_1" android:layout_width="fill_parent" android:layout_height="@dimen/feed_row_header_height">
+            <com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_medium" android:textColor="@color/accent_blue_medium" android:id="@id/row_aysf_suggestions_subtitle" android:paddingRight="@dimen/action_bar_title_left_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/view_all" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/ActionBarTitle" />
+            <com.instagram.ui.text.FreightSansTextView android:textColor="@color/grey_5" android:id="@id/row_aysf_suggestions_title" android:paddingRight="@dimen/row_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/suggestions_for_you" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/ActionBarTitle" />
+        </RelativeLayout>
+        <include layout="@layout/row_divider" />
+    </FrameLayout>
+    <include android:id="@id/row_aysf_user_0" layout="@layout/row_feed_aysf_user" />
+    <include android:id="@id/row_aysf_user_1" layout="@layout/row_feed_aysf_user" />
+    <include android:id="@id/row_aysf_user_2" layout="@layout/row_feed_aysf_user" />
+    <include layout="@layout/row_divider" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:background="@color/grey_1" android:layout_width="fill_parent" android:layout_height="@dimen/row_text_padding" />
+        <include layout="@layout/row_divider" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@android:color/white" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/action_bar" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/row_text_padding" style="@style/PaddedRow">
+            <EditText android:id="@id/bug_description" android:padding="@dimen/row_text_padding" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/rageshake_hint" android:scrollHorizontally="false" android:singleLine="false" android:maxLength="1000" android:inputType="textAutoCorrect|textCapSentences|textMultiLine" />
+            <FrameLayout android:id="@id/screenshot_section" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/row_text_padding">
+                <ImageView android:id="@id/screenshot" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="fitXY" />
+                <FrameLayout android:background="#d0000000" android:layout_width="fill_parent" android:layout_height="32.0dip">
+                    <ImageView android:layout_gravity="center|right" android:id="@id/screenshot_remove" android:clickable="true" android:layout_width="32.0dip" android:layout_height="wrap_content" android:src="@drawable/search_clear" android:scaleType="center" android:onClick="onRemoveClick" />
+                </FrameLayout>
+            </FrameLayout>
+            <TextView android:textColor="@color/grey_light" android:id="@id/bug_report_disclaimer" android:padding="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/rageshake_disclaimer" android:lineSpacingMultiplier="1.2" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

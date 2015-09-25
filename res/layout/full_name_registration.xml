@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.android.nux.landing.LandingRotatingBackgroundView android:id="@id/full_name_rotating_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.instagram.android.nux.landing.OnePageScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/name_icon" android:paddingTop="@dimen/one_page_reg_logo_padding_top" android:paddingBottom="@dimen/multi_reg_logo_padding_top_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/reg_name" />
+            <LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <EditText android:ellipsize="start" android:gravity="center" android:layout_gravity="center" android:id="@id/name_text_view" android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:hint="@string/tabbed_landing_full_name_hint" android:inputType="textNoSuggestions" android:privateImeOptions="nm" android:imeOptions="actionNext" />
+                <include layout="@layout/row_divider" />
+                <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@drawable/text_view_color" android:gravity="center" android:layout_gravity="center" android:id="@id/next_label" android:layout_width="wrap_content" android:layout_height="@dimen/row_height_small" android:text="@string/next" />
+                <ProgressBar android:layout_gravity="center" android:id="@id/progress_next" android:visibility="gone" android:layout_width="32.0dip" android:layout_height="32.0dip" android:layout_margin="@dimen/row_padding" android:indeterminate="true" />
+            </LinearLayout>
+        </LinearLayout>
+    </com.instagram.android.nux.landing.OnePageScrollView>
+    <include layout="@layout/action_bar" />
+    <include layout="@layout/notification_bar" />
+</FrameLayout>

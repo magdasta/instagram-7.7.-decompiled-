@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/capture_controls" android:background="@color/grey_7" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:ig="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_gravity="top" android:id="@id/clip_stack_view_container" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginTop="1.0dip">
+        <com.instagram.creation.video.ui.ClipStackView android:id="@id/clip_stack_view" android:layout_width="fill_parent" android:layout_height="fill_parent" ig:clipBackground="@drawable/camcorder_progress_white" />
+        <com.instagram.creation.video.ui.CamcorderBlinker android:id="@id/blinker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/camcorder_track_light" />
+    </FrameLayout>
+    <com.instagram.creation.capture.ShutterButton android:layout_gravity="center" android:id="@id/shutter_button" android:focusable="true" android:clickable="true" android:layout_width="@dimen/camera_shutter_button_size_large" android:layout_height="@dimen/camera_shutter_button_size_large" android:layout_marginBottom="16.0dip" android:contentDescription="@string/shutter" />
+    <LinearLayout android:layout_gravity="bottom|center" android:id="@id/delete_button" android:clickable="true" android:layout_width="wrap_content" android:layout_height="@dimen/media_tab_bar_height">
+        <ImageView android:gravity="center_vertical" android:id="@id/delete_button_arrow" android:paddingTop="1.0dip" android:paddingRight="2.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/delete_arrow" />
+        <com.instagram.ui.text.FreightSansTextView android:textSize="@dimen/font_medium" android:textColor="@color/delete_clip_button_color" android:gravity="center_vertical" android:id="@id/delete_button_text" android:paddingRight="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/delete_clip_button" />
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,45 @@
+.class final Lcom/instagram/android/a/d/s;
+.super Ljava/lang/Object;
+.source "ConnectMegaphoneRowViewBinder.java"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# instance fields
+.field final synthetic a:Lcom/instagram/feed/e/b;
+
+.field final synthetic b:Lcom/instagram/feed/f/l;
+
+
+# direct methods
+.method constructor <init>(Lcom/instagram/feed/e/b;Lcom/instagram/feed/f/l;)V
+    .locals 0
+
+    .prologue
+    .line 62
+    iput-object p1, p0, Lcom/instagram/android/a/d/s;->a:Lcom/instagram/feed/e/b;
+
+    iput-object p2, p0, Lcom/instagram/android/a/d/s;->b:Lcom/instagram/feed/f/l;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 2
+
+    .prologue
+    .line 65
+    iget-object v0, p0, Lcom/instagram/android/a/d/s;->a:Lcom/instagram/feed/e/b;
+
+    iget-object v1, p0, Lcom/instagram/android/a/d/s;->b:Lcom/instagram/feed/f/l;
+
+    invoke-interface {v0, v1}, Lcom/instagram/feed/e/b;->c(Lcom/instagram/feed/f/l;)V
+
+    .line 66
+    return-void
+.end method

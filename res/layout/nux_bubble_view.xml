@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/grey_5" android:gravity="center_vertical" android:id="@id/nux_bubble_content_text" android:background="@drawable/tag_bubble_white" android:paddingLeft="18.0dip" android:paddingTop="15.0dip" android:paddingRight="18.0dip" android:paddingBottom="15.0dip" android:layout_width="@dimen/nux_bubble_width" android:layout_height="wrap_content" android:text="@string/nux_filter_strength" android:lineSpacingExtra="2.0dip" />
+    <View android:layout_gravity="center_horizontal" android:id="@id/nux_bubble_nub" android:background="@drawable/tag_carrot_white_bottom" android:layout_width="@dimen/nux_bubble_nub_width" android:layout_height="@dimen/nux_bubble_nub_height" android:layout_marginTop="@dimen/nux_bubble_nub_alignment_top_margin" />
+</LinearLayout>

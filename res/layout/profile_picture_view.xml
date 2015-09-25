@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/accent_blue_medium" android:gravity="center" android:layout_gravity="center" android:id="@id/import_facebook" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/import_from_facebook" android:drawableLeft="@drawable/share_facebook" android:drawablePadding="4.0dip" android:layout_weight="1.0" />
+    <include layout="@layout/row_divider" />
+    <TextView android:textSize="@dimen/font_medium" android:gravity="center" android:id="@id/take_photo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/take_picture" android:layout_weight="1.0" />
+    <include layout="@layout/row_divider" />
+    <TextView android:textSize="@dimen/font_medium" android:gravity="center" android:id="@id/choose_from_library" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/choose_from_library" android:layout_weight="1.0" />
+    <include layout="@layout/row_divider" />
+    <TextView android:textSize="@dimen/font_medium" android:gravity="center" android:id="@id/import_twitter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/import_from_twitter" android:layout_weight="1.0" />
+</LinearLayout>

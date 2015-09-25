@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/grey_8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/fragment_camera_actionbar" style="@style/ActionBar.Dark">
+        <ImageView android:id="@id/action_bar_cancel" android:src="@drawable/nav_cancel" style="@style/ActionBarButton.Dark" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5" />
+        <ImageView android:id="@id/grid_lines_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/camera_gridtoggle" android:layout_weight="1.0" style="@style/ActionBarButton.Dark" />
+        <ImageView android:id="@id/switch_camera_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/camera_cameratoggle" android:layout_weight="1.0" style="@style/ActionBarButton.Dark" />
+        <com.instagram.creation.photo.camera.CameraFlashButton android:id="@id/flash_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/camera_flash_off" android:layout_weight="1.0" style="@style/ActionBarButton.Dark" />
+        <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5" />
+        <View style="@style/ActionBarButton" />
+    </LinearLayout>
+    <include layout="@layout/camera_preview_frame" />
+    <include layout="@layout/camera_bottom_buttons" />
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">%1$s trong số những người bạn trên Facebook của bạn đã tham gia Instagram</item>
+        <item quantity="one">1 trong số những người bạn trên Facebook của bạn đã tham gia Instagram.</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">%1$s người bạn trên VKontakte của bạn đang ở trên Instagram</item>
+        <item quantity="one">1 trong những người bạn trên VKontakte của bạn đang ở trên Instagram</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">%1$s trong số các liên hệ của bạn đã tham gia Instagram</item>
+        <item quantity="one">1 trong số các liên hệ của bạn đã tham gia Instagram</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%1$d ảnh</item>
+        <item quantity="one">1 ảnh</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%1$s giây trước</item>
+        <item quantity="one">%1$s giây trước</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%1$s phút trước</item>
+        <item quantity="one">%1$s phút trước</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%1$s giờ trước</item>
+        <item quantity="one">%1$s giờ trước</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%1$s ngày trước</item>
+        <item quantity="one">%1$s ngày trước</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%1$s tuần trước</item>
+        <item quantity="one">%1$s tuần trước</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s người</item>
+        <item quantity="one">1 người</item>
+    </plurals>
+    <plurals name="direct_x_message_requests">
+        <item quantity="other">%1$s tin nhắn đang chờ</item>
+        <item quantity="one">Tin nhắn đang chờ từ %1$s</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">Bạn chỉ có thể chọn %1$d bình luận tại một thời điểm.</item>
+        <item quantity="one">Bạn chỉ có thể chọn 1 bình luận tại một thời điểm.</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">Bạn có %1$s người bạn tham gia Facebook trên Instagram.</item>
+        <item quantity="one">Bạn có 1 bạn bè từ Facebook trên Instagram.</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">Bạn có %1$s người bạn trên VKontakte đang sử dụng Instagram.</item>
+        <item quantity="one">Bạn có 1 người bạn trên VKontakte đang sử dụng Instagram.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">Đã tìm thấy %1$s liên hệ.</item>
+        <item quantity="one">Đã tìm thấy 1 liên hệ.</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">Đã chọn %1$d mục</item>
+        <item quantity="one">Đã chọn 1 mục</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">Đã xóa %1$d bình luận. Nhấn để hoàn tác.</item>
+        <item quantity="one">Đã xóa bình luận. Nhấn để hoàn tác.</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%1$s người bạn trên Facebook</item>
+        <item quantity="one">1 người bạn trên Facebook</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%1$s liên hệ</item>
+        <item quantity="one">1 liên hệ</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d người</item>
+        <item quantity="one">1 người</item>
+    </plurals>
+    <plurals name="cluster_browsing_x_suggested_accounts">
+        <item quantity="other">%1$d tài khoản được đề xuất</item>
+        <item quantity="one">1 tài khoản được đề xuất</item>
+    </plurals>
+    <plurals name="cluster_browsing_topics_selected">
+        <item quantity="other">Đã chọn %1$d chủ đề</item>
+        <item quantity="one">1 chủ đề được chọn</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%1$d người đã trả lời.</item>
+        <item quantity="one">1 người đã trả lời</item>
+    </plurals>
+</resources>

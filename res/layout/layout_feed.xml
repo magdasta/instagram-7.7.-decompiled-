@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/layout_listview_parent_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.android.feed.ui.StickyHeaderListView android:id="@id/sticky_header_list" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/layout_refreshablelistview" />
+    </com.instagram.android.feed.ui.StickyHeaderListView>
+    <include layout="@layout/layout_listview_progressbar" />
+    <FrameLayout android:id="@id/starred_hide_shoutout" android:background="@color/starred_hide_shoutout_color" android:paddingLeft="@dimen/feed_header_padding" android:paddingRight="@dimen/feed_header_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <TextView android:textColor="@color/white" android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/starred_make_better" />
+    </FrameLayout>
+</FrameLayout>

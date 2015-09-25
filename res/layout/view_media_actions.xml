@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/video_states_view_stub" android:layout="@layout/view_media_actions_video_states" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:layout_gravity="center" android:id="@id/doubletap_heart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/feed_like_big" android:scaleX="0.0" android:scaleY="0.0" />
+    <ViewStub android:layout_gravity="bottom|center" android:id="@id/audio_toggle_nux_view_stub" android:layout="@layout/view_media_actions_audio_toggle_nux" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" />
+</merge>

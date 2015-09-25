@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewSwitcher android:id="@id/creation_main_actions" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/creation_secondary_actions" android:background="@drawable/black_top_border" android:layout_width="fill_parent" android:layout_height="@dimen/creation_secondary_actions_large" android:baselineAligned="false" />
+        <ViewSwitcher android:id="@id/filter_tool_switcher" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <com.instagram.creation.base.ui.effectpicker.FilterPicker android:id="@id/filter_picker" android:background="@color/grey_8" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <com.instagram.creation.base.ui.effectpicker.EffectPicker android:id="@id/tool_picker" android:background="@color/grey_8" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </ViewSwitcher>
+    </LinearLayout>
+    <include layout="@layout/filter_strength_adjust" />
+</ViewSwitcher>

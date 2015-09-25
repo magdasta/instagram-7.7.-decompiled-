@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/creation_main_actions" android:background="@color/grey_8" android:layout_width="fill_parent" android:layout_height="0.0dip" android:baselineAligned="false" android:layout_weight="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.instagram.ui.widget.strokeimageview.CircularStrokeImageView android:layout_gravity="center" android:id="@id/fragment_camera_gallery_button" android:background="@drawable/switch_camera_button_background" android:layout_width="@dimen/camera_bottom_button_size_large" android:layout_height="@dimen/camera_bottom_button_size_large" android:src="@drawable/camera_glyph_gallery" android:scaleType="center" android:contentDescription="@string/photo_library" app:outlineColor="@color/grey_6" app:strokeSize="@dimen/camera_button_stroke_width" />
+        <com.instagram.creation.util.GalleryPreviewButton android:layout_gravity="center" android:id="@id/fragment_camera_last_photo_button" android:layout_width="@dimen/camera_bottom_gallery_button_size" android:layout_height="@dimen/camera_bottom_gallery_button_size" android:contentDescription="@string/photo_library" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.instagram.camera.ShutterButton android:layout_gravity="center" android:id="@id/fragment_camera_shutter_button" android:background="@drawable/camera_shutter_button_background" android:focusable="true" android:clickable="true" android:layout_width="@dimen/camera_shutter_button_size_large" android:layout_height="@dimen/camera_shutter_button_size_large" android:contentDescription="@string/shutter" />
+    </FrameLayout>
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <com.instagram.ui.widget.strokeimageview.CircularStrokeImageView android:layout_gravity="center" android:id="@id/fragment_camera_video_button" android:background="@drawable/switch_camera_button_background" android:layout_width="@dimen/camera_bottom_button_size_large" android:layout_height="@dimen/camera_bottom_button_size_large" android:src="@drawable/camera_glyph_camcorder" android:scaleType="center" android:contentDescription="@string/switch_video_mode" app:outlineColor="@color/grey_6" app:strokeSize="@dimen/camera_button_stroke_width" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">%1$s Teman Facebook Anda Berada di Instagram</item>
+        <item quantity="one">1 Teman Facebook Anda Berada di Instagram.</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">%1$s dari Teman VKontakte Anda berada di Instagram</item>
+        <item quantity="one">1 dari Teman VKontakte Anda berada di Instagram</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">%1$s dari Kontak Anda berada di Instagram</item>
+        <item quantity="one">1 Kontak Anda Berada di Instagram</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%1$d foto</item>
+        <item quantity="one">1 foto</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%1$s detik yang lalu</item>
+        <item quantity="one">%1$s detik yang lalu</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%1$s menit yang lalu</item>
+        <item quantity="one">%1$s menit yang lalu</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%1$s jam yang lalu</item>
+        <item quantity="one">%1$s jam yang lalu</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%1$s hari yang lalu</item>
+        <item quantity="one">%1$s hari yang lalu</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%1$s minggu yang lalu</item>
+        <item quantity="one">%1$s minggu yang lalu</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s orang</item>
+        <item quantity="one">1 orang</item>
+    </plurals>
+    <plurals name="direct_x_message_requests">
+        <item quantity="other">%1$s permintaan pesan</item>
+        <item quantity="one">Permintaan pesan dari %1$s</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">Anda hanya dapat memilih %1$d komentar pada satu waktu.</item>
+        <item quantity="one">Anda dapat memilih hanya 1 komentar pada satu waktu.</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">Anda memiliki %1$s teman Facebook di Instagram.</item>
+        <item quantity="one">Anda memiliki 1 teman Facebook di Instagram.</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">Anda memiliki %1$s teman VKontakte di Instagram.</item>
+        <item quantity="one">Anda memiliki 1 teman VKontakte di Instagram.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">%1$s kontak ditemukan.</item>
+        <item quantity="one">1 kontak ditemukan.</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">%1$d dipilih</item>
+        <item quantity="one">1 dipilih</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">%1$d komentar dihapus. Ketuk untuk membatalkan.</item>
+        <item quantity="one">Komentar dihapus. Ketuk untuk membatalkan</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%1$s Teman Facebook</item>
+        <item quantity="one">1 teman Facebook</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%1$s Kontak</item>
+        <item quantity="one">1 Kontak</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d Orang</item>
+        <item quantity="one">1 Orang</item>
+    </plurals>
+    <plurals name="cluster_browsing_x_suggested_accounts">
+        <item quantity="other">%1$d akun yang disarankan</item>
+        <item quantity="one">1 akun yang disarankan</item>
+    </plurals>
+    <plurals name="cluster_browsing_topics_selected">
+        <item quantity="other">%1$d topik dipilih</item>
+        <item quantity="one">1 topik dipilih</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%1$d orang menanggapi.</item>
+        <item quantity="one">1 orang menanggapi.</item>
+    </plurals>
+</resources>

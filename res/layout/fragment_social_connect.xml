@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.android.nux.landing.LandingRotatingBackgroundView android:id="@id/rotating_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ScrollView android:layout_gravity="top" android:id="@id/scroll_view_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/action_bar_height" android:fillViewport="true">
+        <com.instagram.android.nux.connection.ConnectionLayout android:orientation="vertical" android:id="@id/content_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:gravity="center_horizontal" android:id="@id/logo" android:layout_width="fill_parent" android:layout_height="@dimen/connection_logo_height" android:layout_marginTop="@dimen/multi_reg_logo_padding_top_bottom" android:layout_marginBottom="@dimen/multi_reg_logo_padding_top_bottom" />
+            <include layout="@layout/social_connect_call_to_action" />
+        </com.instagram.android.nux.connection.ConnectionLayout>
+    </ScrollView>
+</FrameLayout>

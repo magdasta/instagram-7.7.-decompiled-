@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/row_divider" />
+    <com.instagram.ui.text.FreightSansTextView android:textColor="@color/grey_2" android:layout_gravity="center_horizontal" android:id="@id/or_text" android:background="@color/white" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginTop="-10.0dip" android:layout_marginBottom="-10.0dip" android:text="@string/or" />
+</merge>

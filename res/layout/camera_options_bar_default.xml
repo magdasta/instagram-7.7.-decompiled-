@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/creation_secondary_actions" android:background="@color/grey_7" android:layout_width="fill_parent" android:layout_height="@dimen/creation_secondary_actions_large" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/grid_lines_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/camera_gridtoggle" android:scaleType="center" android:layout_weight="1.0" />
+    <View android:background="@color/grey_medium" android:layout_width="1.0px" android:layout_height="28.0dip" />
+    <ImageView android:id="@id/switch_camera_button" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/camera_cameratoggle" android:scaleType="center" android:layout_weight="1.0" />
+    <View android:background="@color/grey_medium" android:layout_width="1.0px" android:layout_height="28.0dip" />
+    <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <com.instagram.creation.photo.camera.CameraFlashButton android:id="@id/flash_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/camera_flash_off" android:scaleType="center" />
+    </FrameLayout>
+</LinearLayout>

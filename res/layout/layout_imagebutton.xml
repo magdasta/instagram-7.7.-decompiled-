@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.common.ui.widget.imageview.ConstrainedImageView android:id="@id/image_button_image_view" android:layout_width="fill_parent" android:layout_height="0.0px" android:scaleType="centerCrop" android:adjustViewBounds="false" app:placeholder="@color/image_placeholder" />
+    <ImageView android:layout_gravity="center|right|top" android:id="@id/video_overlay" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/grid_camera_icon" />
+    <View android:layout_gravity="center" android:id="@id/touch_overlay" android:background="#80000000" android:focusable="false" android:clickable="false" android:layout_width="0.0px" android:layout_height="0.0px" />
+</merge>

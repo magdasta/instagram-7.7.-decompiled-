@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/fragment_camera_actionbar" style="@style/ActionBar.Dark">
+        <ImageView android:id="@id/action_bar_cancel" android:src="@drawable/nav_cancel" style="@style/ActionBarButton.Dark" />
+    </FrameLayout>
+    <include layout="@layout/camera_preview_frame" />
+    <FrameLayout android:id="@id/camera_options_bar_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/camera_bottom_buttons" />
+</LinearLayout>

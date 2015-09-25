@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.android.nux.landing.RegistrationLayout android:id="@id/tabbed_landing_container" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.android.nux.landing.LandingRotatingBackgroundView android:id="@id/tabbed_landing_rotating_background" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/tabbed_landing_logo_and_icon_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/tabbed_landing_icon" android:paddingTop="@dimen/multi_reg_logo_padding_top_bottom" android:paddingBottom="@dimen/multi_reg_logo_padding_top_bottom" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/reg_name" />
+            <LinearLayout android:orientation="vertical" android:id="@id/tabbed_landing_logo_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.instagram.android.nux.landing.TabbedLandingLogoView android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/tabbed_landing_logo_inset" android:layout_marginRight="@dimen/tabbed_landing_logo_inset" />
+                <TextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/tabbed_landing_caption" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tabbed_landing_subtitle_sign_up" />
+            </LinearLayout>
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/tabbed_landing_tab_header" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small">
+            <com.instagram.android.nux.landing.TabbedLandingTab android:id="@id/tabbed_landing_sign_up" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/nux_dayone_sign_up" android:layout_weight="1.0" />
+            <com.instagram.android.nux.landing.TabbedLandingTab android:id="@id/tabbed_landing_log_in" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/nux_dayone_log_in" android:layout_weight="1.0" />
+        </LinearLayout>
+        <FrameLayout android:background="@color/white" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <FrameLayout android:id="@id/sign_up_tab_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <FrameLayout android:id="@id/log_in_tab_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+    </LinearLayout>
+</com.instagram.android.nux.landing.RegistrationLayout>

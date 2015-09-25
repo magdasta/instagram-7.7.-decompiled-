@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tab_bar_height">56.0dip</dimen>
+    <dimen name="photo_grid_spacing">3.0px</dimen>
+    <dimen name="camera_button_stroke_width">2.0px</dimen>
+</resources>

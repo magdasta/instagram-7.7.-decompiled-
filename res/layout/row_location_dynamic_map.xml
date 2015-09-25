@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.android.maps.MapView android:id="@id/row_map_header_mapview" android:layout_width="fill_parent" android:layout_height="fill_parent" facebook:uiRotateGestures="false" facebook:uiScrollGestures="false" facebook:uiZoomControls="false" facebook:uiZoomGestures="false" facebook:surface="location_map_row"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:facebook="http://schemas.android.com/apk/facebook" />

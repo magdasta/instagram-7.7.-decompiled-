@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.common.ui.widget.framelayout.MediaFrameLayout android:id="@id/media_group" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.feed.widget.IgProgressImageView android:id="@id/row_feed_photo_imageview" android:layout_width="fill_parent" android:layout_height="fill_parent" app:perfTrackingCategory="feed_photo" />
+    <Button android:layout_gravity="bottom|center|left" android:id="@id/row_feed_photo_tags_indicator" android:background="@drawable/tag_badge" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginBottom="6.0dip" />
+    <ViewStub android:layout_gravity="bottom|center|left" android:id="@id/row_feed_photo_indicator" android:layout="@layout/view_media_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/feed_content_padding" android:layout_marginBottom="@dimen/feed_content_padding" />
+    <com.instagram.android.people.widget.PeopleTagsLayout android:id="@id/row_feed_photo_people_tagging" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.instagram.ui.videoplayer.MediaActionsView android:id="@id/row_feed_video_indicator" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</com.instagram.common.ui.widget.framelayout.MediaFrameLayout>

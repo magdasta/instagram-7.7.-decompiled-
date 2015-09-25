@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="action_bar_height">44.0dip</dimen>
+    <dimen name="tab_bar_height">44.0dip</dimen>
+    <dimen name="sentiment_tool_answer_padding">9.0dip</dimen>
+    <dimen name="photo_grid_spacing">1.0px</dimen>
+</resources>

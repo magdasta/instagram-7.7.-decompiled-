@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/row_cluster_row" android:layout_marginBottom="@dimen/row_text_padding" android:minHeight="@dimen/row_explore_header" style="@style/PaddedRow">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center_vertical" android:id="@id/row_cluster_icon" style="@style/Avatar.Medium" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textStyle="bold" android:ellipsize="end" android:gravity="center|left" android:id="@id/row_cluster_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <com.instagram.ui.text.MinimizeEllipsisTextView android:textColor="@color/grey_light" android:ellipsize="end" android:id="@id/row_cluster_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center|right" android:id="@id/row_view_chevron" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/cluster_preview_container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:id="@id/row_cluster_divider" android:background="@color/grey_2" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" />
+</LinearLayout>

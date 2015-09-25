@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.ui.text.FreightSansTextView android:layout_marginTop="@dimen/vertical_separator_padding" android:text="@string/share" style="@style/RowHeaderText"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

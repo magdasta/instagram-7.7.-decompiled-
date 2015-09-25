@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.ui.widget.triangleshape.TriangleShape android:id="@id/cluster_preview_notch" android:layout_width="fill_parent" android:layout_height="@dimen/vertical_separator_padding" app:fillColor="@color/grey_1" />
+</LinearLayout>

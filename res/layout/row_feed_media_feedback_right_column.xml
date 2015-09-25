@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.android.feed.ui.MediaOptionsButton android:id="@id/row_feed_button_options" android:padding="@dimen/row_text_padding" android:layout_width="wrap_content" android:layout_height="@dimen/feed_feedback_item_height" android:src="@drawable/feed_more_background" android:scaleType="center" android:layout_alignParentRight="true" android:contentDescription="@string/share" app:active="@color/grey_medium" />
+    <ViewStub android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/row_feed_feedback_metalabel_stub" android:layout="@layout/metalabel_textview" android:layout_width="wrap_content" android:layout_height="@dimen/feed_feedback_item_height" android:layout_marginRight="@dimen/feed_content_padding" android:layout_alignParentRight="true" />
+    <ViewStub android:id="@id/link_button_stub" android:layout="@layout/link_button" android:layout_width="wrap_content" android:layout_height="@dimen/feed_action_button_height" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/feed_content_padding" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</merge>

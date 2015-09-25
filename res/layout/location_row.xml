@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/metadata_row_add_to_your_your_photomap" style="@style/PaddedRow">
+        <LinearLayout android:gravity="center_vertical" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small">
+            <TextView android:textStyle="bold" android:id="@id/metadata_textview_photomap" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/add_to_photo_map" android:layout_weight="1.0" />
+            <com.instagram.ui.widget.switchbutton.IgSwitch android:id="@id/geotagCheckBox" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <include layout="@layout/row_divider" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/metadata_row_location" android:background="@drawable/bg_simple_row" style="@style/PaddedRow">
+        <LinearLayout android:gravity="center_vertical" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small">
+            <com.instagram.android.creation.widget.ShareLocationButton android:id="@id/nameLocationCheckBox" android:background="@drawable/share_location" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" />
+            <TextView android:ellipsize="end" android:id="@id/geotagTextView" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/row_text_padding" android:text="@string/name_this_location" android:singleLine="true" android:layout_weight="1.0" />
+        </LinearLayout>
+        <include layout="@layout/row_divider" />
+    </FrameLayout>
+</merge>

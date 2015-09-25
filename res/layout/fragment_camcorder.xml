@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/action_bar_camcorder_controls">
+        <com.instagram.creation.video.widget.scrubber.IgScrubberProgressIndicator android:layout_gravity="center" android:id="@id/camcorder_spinner" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/camcorder_content" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/camcorder_preview_frame" />
+            <FrameLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/creation_secondary_actions" android:background="@color/grey_7" android:layout_width="fill_parent" android:layout_height="@dimen/creation_secondary_actions_large" android:baselineAligned="false">
+                <ImageView android:id="@id/switch_camera_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/camera_cameratoggle" android:scaleType="center" />
+            </FrameLayout>
+            <include layout="@layout/camcorder_bottom_buttons" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/action_bar_camcorder_controls" android:layout_alignParentTop="true" style="@style/ActionBar.Dark">
+        <com.instagram.creation.video.ui.VideoCancelButton android:layout_gravity="left" android:id="@id/action_bar_cancel_button" android:src="@drawable/nav_cancel" style="@style/ActionBarButton.Dark" />
+        <com.instagram.creation.video.ui.VideoAcceptButton android:layout_gravity="right" android:id="@id/button_accept" android:src="@drawable/nav_arrow_next" style="@style/ActionBarButton.Dark" />
+    </FrameLayout>
+</RelativeLayout>

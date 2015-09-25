@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">%1$s sa mga Kaibigan Mo sa Facebook ay nasa Instagram.</item>
+        <item quantity="one">%1$s sa mga Kaibigan Mo sa Facebook ay nasa Instagram.</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">%1$s sa Mga Kaibigan Mo sa VKontakte ay nasa Instagram</item>
+        <item quantity="one">%1$s sa Mga Kaibigan Mo sa VKontakte ay nasa Instagram</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">%1$s sa mga Contact Mo ay nasa Instagram.</item>
+        <item quantity="one">%1$s sa mga Contact Mo ay nasa Instagram.</item>
+    </plurals>
+    <plurals name="x_photos">
+        <item quantity="other">%1$d (na) litrato</item>
+        <item quantity="one">%1$d (na) litrato</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%1$s (na) segundo ang nakalipas</item>
+        <item quantity="one">%1$s (na) segundo ang nakalipas</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%1$s (na) minuto ang nakalipas</item>
+        <item quantity="one">%1$s (na) minuto ang nakalipas</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%1$s (na) oras ang nakalipas</item>
+        <item quantity="one">%1$s (na) oras ang nakalipas</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%1$s (na) araw ang nakalipas</item>
+        <item quantity="one">%1$s (na) araw ang nakalipas</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%1$s (na) linggo ang nakalipas</item>
+        <item quantity="one">%1$s (na) linggo ang nakalipas</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s (na) tao</item>
+        <item quantity="one">%1$s (na) tao</item>
+    </plurals>
+    <plurals name="direct_x_message_requests">
+        <item quantity="other">%1$s (na) hiling para sa mensahe</item>
+        <item quantity="one">%1$s (na) hiling para sa mensahe</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">Maaari ka lang pumili ng %1$d (na) komento sa isang pagkakataon.</item>
+        <item quantity="one">Maaari ka lang pumili ng %1$d (na) komento sa isang pagkakataon.</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">Mayroon kang %1$s (na) kaibigan sa Facebook na nasa Instagram.</item>
+        <item quantity="one">Mayroon kang %1$s (na) kaibigan sa Facebook na nasa Instagram.</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">Mayroon kang %1$s (na) kaibigan sa VKontakte sa Instagram.</item>
+        <item quantity="one">Mayroon kang %1$s (na) kaibigan sa VKontakte sa Instagram.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">%1$s (na) contact ang nahanap.</item>
+        <item quantity="one">%1$s (na) contact ang nahanap.</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">%1$d ang pinili</item>
+        <item quantity="one">%1$d ang pinili</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">%1$d (na) komento ang tinanggal. I-tap para bawiin.</item>
+        <item quantity="one">%1$d (na) komento ang tinanggal. I-tap para bawiin.</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%1$s (na) Kaibigan sa Facebook</item>
+        <item quantity="one">%1$s (na) Kaibigan sa Facebook</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%1$s (na) Contact</item>
+        <item quantity="one">%1$s (na) Contact</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d (na) Tao</item>
+        <item quantity="one">%1$d (na) Tao</item>
+    </plurals>
+    <plurals name="cluster_browsing_x_suggested_accounts">
+        <item quantity="other">%1$d (na) iminumungkahing account</item>
+        <item quantity="one">%1$d (na) iminumungkahing account</item>
+    </plurals>
+    <plurals name="cluster_browsing_topics_selected">
+        <item quantity="other">%1$d (na) paksa ang pinili</item>
+        <item quantity="one">%1$d (na) paksa ang pinili</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%1$d (na) tao ang sumagot.</item>
+        <item quantity="one">%1$d (na) tao ang sumagot.</item>
+    </plurals>
+</resources>

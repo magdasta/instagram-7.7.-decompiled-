@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:padding="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <EditText android:id="@id/edittext" android:paddingTop="@dimen/row_text_padding" android:paddingBottom="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/improve" android:capitalize="sentences" android:inputType="textCapSentences|textMultiLine" />
+    </LinearLayout>
+</ScrollView>

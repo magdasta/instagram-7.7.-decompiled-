@@ -1,4 +1,4 @@
-version: 2.0.0-RC4
+version: 2.0.0-RCM
 apkFileName: com.instagram.android-7.7.0-15049153-minAPI14.apk
 isFrameworkApk: false
 usesFramework:
